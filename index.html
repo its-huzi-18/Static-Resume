@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Static Resume</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+
+
 </head>
 <body>
     <!-- Placeholder for header -->
@@ -13,7 +17,7 @@
         <div class="intro">
             <div class="profile">
                 <div class="photo">
-                    <img src="profile image.jpg" alt="Profile Photo">
+                    <img src="profileImage.jpg" alt="Profile Photo">
                 </div>
                 <div class="bio">
                     <h1 class="name">Huzaifa Wahab</h1>
@@ -33,8 +37,7 @@
                     <span>+923470670936</span>
                 </div>
                 <div class="info-section">
-                    <i class="fas fa-paper-plane"></i>
-                    <span>huzaifawahab2005@gmail.com</span>
+                    <span style="font-size: 1rem ;display: inline-flex; "><i class="fas fa-paper-plane"> </i> huzaifawahab2005@gmail.com</span>
                 </div>
                
             </div>
@@ -42,8 +45,8 @@
                 <h1 class="title">Follow</h1>
                 <div class="info-section link">
                     <i class="fab fa-github"></i>
-                    <a target="_blank" rel="author" href="https://www.instagram.com/its_huzi_18?utm_source=qr&igsh=N3I5bmZ0Y2NuaTNk">
-                        <span>Instagram</span>
+                    <a target="_blank" rel="author" href="https://github.com/its-huzi-18">
+                        <span>Github</span>
                     </a>
                     <div class="info-section link">
                         <i class="fab fa-facebook"></i>
@@ -52,10 +55,12 @@
                         </a>
                     </div>
                 </div>
+             
                 <div class="info-section link">
-                    <i class="fab fa-codepen"></i>
-                    <a target="_blank" rel="author" href="https://github.com/its-huzi-18">
-                        <span>Github</span>
+                    <i class="fab fa-linkedin"></i>
+                    <a target="_blank" rel="author" href="https://www.linkedin.com/in/huzaifa-wahab-1137432ba/" id="linkedinLinkSection">
+                        <span class="text-blue underline" style="font-size: large; font-weight: 600;">LinkedIn</span><br>
+                        <span style="font-size: 14px;" id="LinkedinUserSection"></span>
                     </a>
                 </div>
             </div>
@@ -138,45 +143,43 @@
             <div class="detail-section tool-skill">
                 <div class="detail-title">
                     <div class="title-icon">
-                        <i class="fas fa-tools"></i>
+                        <i class="fas fa-business-time"></i>
                     </div>
-                    <span>Development Tools</span>
+                    <span>Working Experience</span>
                 </div>
                 <div class="detail-content">
-                    <ul class="tool-list">
-                        <li>
-                            <svg viewBox="0 0 100 100">
-                                <circle cx="50" cy="50" r="45"></circle>
-                                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.6"></circle>
-                            </svg>
-                            <span class="tl-name">Photoshop</span>
-                            <span class="tl-exp">60%</span>
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 100 100">
-                                <circle cx="50" cy="50" r="45"></circle>
-                                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.8"></circle>
-                            </svg>
-                            <span class="tl-name">Sublime</span>
-                            <span class="tl-exp">80%</span>
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 100 100">
-                                <circle cx="50" cy="50" r="45"></circle>
-                                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.7"></circle>
-                            </svg>
-                            <span class="tl-name">Git</span>
-                            <span class="tl-exp">70%</span>
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 100 100">
-                                <circle cx="50" cy="50" r="45"></circle>
-                                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.74"></circle>
-                            </svg>
-                            <span class="tl-name">NPM</span>
-                            <span class="tl-exp">74%</span>
-                        </li>
-                    </ul>
+                    <div class="year">
+                        <hr>
+                        <br>
+                        <span>2019</span>-<span>2021</span>
+                    </div>
+                    <div class="company">
+                        <div class="companyNameSection">
+                            <h4 id="companyNameH4">Company Name</h4>
+                            <i class="fas fa-city"></i>
+                        </span>
+                        </div>
+                       <div class="companyDetail">
+                           <h4 id="companyName">Zenovate Technologies</h4>
+                           <p id="experienceDetail">At Zenovate Technologies, I spent 2 years working as a frontend developer, where I played a key role in designing and implementing responsive user interfaces for various web applications.</p>
+                        </div>  
+                    </div>
+                    <div class="year">
+                        <hr>
+                        <br>
+                        <span>2021</span>-<span>2023</span>
+                    </div>
+                    <div class="company">
+                        <div class="companyNameSection">
+                            <h4 id="companyNameH4">Company Name</h4>
+                            <i class="fas fa-city"></i>
+                        </span>
+                        </div>
+                        <div class="companyDetail">
+                            <h4 id="companyName">Velocron Innovations</h4>
+                            <p id="experienceDetail">During my 2 years at Velocron Innovations, I gained extensive experience in leading cross-functional teams, developing scalable software solutions, and optimizing performance for enterprise-level applications</p>
+                         </div>  
+                    </div>
                 </div>
             </div>
             <div class="detail-section interests">
@@ -186,6 +189,7 @@
                     </div>
                     <span>Interests</span>
                 </div>
+
                 <div class="detail-content">
                     <div class="outer-frame">
                         <ul class="favor-list">
@@ -198,11 +202,11 @@
                                 <span>Pet</span>
                             </li>
                             <li>
-                                <i class="far fa-headphones-alt"></i>
+                                <i class="fas fa-headphones-alt"></i>
                                 <span>Music</span>
                             </li>
                             <li>
-                                <i class="fas fa-book-spells"></i>
+                                <i class="fas fa-book"></i>
                                 <span>Self-learning</span>
                             </li>
                             <li>
@@ -227,14 +231,5 @@
             </div>
         </div>
     </div>
-
-    <!-- JavaScript to load header.html -->
-    <script>
-        fetch('header.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('header-container').innerHTML = data;
-            });
-    </script>
 </body>
 </html>

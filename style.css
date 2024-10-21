@@ -98,7 +98,7 @@ body {
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 letter-spacing: 1.1px;
 
-	/* text-align: justify; */
+/* text-align: justify; */
 }
 .info-section {
 	margin: 1rem 0;
@@ -322,12 +322,49 @@ letter-spacing: 1.1px;
 	font-size: 1rem;
 	transform: translate(-50%, -50%);
 }
+/* Working Expereince  */
+.company{
+	margin: 0 2%;
+	border-radius: 4px;
+	/* background-color:#dedede; */
+	color: #00387f;
+	display: flex;
+	justify-content:space-around
+}
+
+#companyNameH4{
+	color:#00a6a6;
+}
+#experienceDetail{
+	font-size: 0.9rem;
+	color:darkslategray;
+}
+.companyDetail{
+	width: 15rem;
+}
+.companyNameSection i{
+	padding: 20px;
+font-size:3.5rem;
+}
+.companyNameSection i:hover{
+	font-size: 4rem;
+}
+.year{
+	margin: 1.5rem 2%;
+	border-radius: 4px;
+	padding: 0.2rem 0;
+	text-align: center;
+	color: red;
+	font-weight: 600;
+	font-size: 1rem;
+}
 /* Interests Section */
 .outer-frame {
 	border: 1px solid var(--color-gray-dark-3);
 	border-radius: 5px;
 }
 .favor-list {
+	gap: 20px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -357,6 +394,15 @@ letter-spacing: 1.1px;
 }
 .favor-list > li > span {
 	letter-spacing: 1px;
+}
+.outer-frame li{
+	text-align: center;
+}
+.outer-frame li span{
+	font-size: 0.8rem;
+}
+.outer-frame{
+padding: 0 2rem;
 }
 
 @keyframes circle {
